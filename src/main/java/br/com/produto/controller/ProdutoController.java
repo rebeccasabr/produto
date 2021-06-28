@@ -39,7 +39,7 @@ public class ProdutoController implements IProdutoController {
 			produtoDto.setValorFrete(new Double(valorFrete));
 			
 			response.setModeloRetorno(produtoBO.inserirProduto(produtoDto));
-			response.setMensagensRetorno("Cadastro realizado com sucesso!!!");
+			response.setMensagensRetorno("Cadastro realizado com sucessooooo!!!");
 			
 			
 			
